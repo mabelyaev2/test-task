@@ -1,0 +1,194 @@
+.annual-add {
+    padding-right: 0;
+    padding-left: 55px;
+}
+
+.descr {
+    display: none;
+}
+
+.highlight {
+    border: 1px solid green;
+}
+
+.invalid {
+    display: none;
+    width: 101px;
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+
+.invalid p,
+.descr p {
+    font-family: 'OpenSans';
+    font-size: 11px;
+    color: #E24C2C;
+}
+
+#card-input {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+@media screen and (max-width: 1026px) {
+    .offer-section__trial-payment {
+        padding-left: 8px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .offer-section__desc-additionals {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 475px) { 
+    .hidden-annual {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        min-width: 300px;
+    }
+
+    .trial-price {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hidden-annual-info {
+        text-align: center;
+    }
+
+    .hidden-annual-info {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .hidden-annual-option {
+        margin: 0 auto;
+    }
+
+    .trial-desc__btn {
+        margin-left: 15px;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .payment-politics {
+        text-align: center;
+    }
+
+    .form-footer {
+        margin: 0 auto;
+    }
+
+    .offer-section__annual-pays img {
+        display: flex;
+        padding-bottom: 20px;
+        margin: 0 auto;
+    }
+
+    .first-row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+
+    input[type="number"] {
+        margin-left: 20px;
+    }
+
+    .second-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-year {
+        padding-left: 0;
+    }
+
+    .feedback-section {
+        display: none;
+    }
+
+    .payment-secure img {
+        padding-bottom: 0;
+    }
+
+    .my-letter-header__link {
+        display: none;
+    }
+
+    .my-letter-header__logo {
+        padding-top: 7px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .offer-section__desc-trial_counter,
+    .offer-section__trial-pays img,
+    .hidden-annual-option {
+        display: none;
+    }
+
+    .offer-section__trial-payment {
+        padding-left: 0;
+    }
+
+    .offer-section__annual-pays,
+    .first-row,
+    .second-row {
+        max-width: 320px;
+    }
+
+    #month-list {
+        position: relative;
+        right: 11px;
+    }
+
+    input[type="number"] {
+        margin-left: 0;
+    }
+
+    .first-row {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .offer-section__annual-pays img {
+        display: none;
+    }
+
+    .hidden-annual-option {
+        margin-left: 11px;
+    }
+
+    .form-footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .payment-politics {
+        width: 300px;
+        text-align: center;
+        font-size: 8px;
+        margin-left: 0;
+        padding-bottom: 10px;
+    }
+
+    .payment-secure {
+        padding-left: 0;
+    }
+}
